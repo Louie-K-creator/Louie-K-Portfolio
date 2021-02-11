@@ -10,6 +10,12 @@ body {
     background-color: #778899;
 }    
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 header {
     background-color: #708090;
     position: fixed;
