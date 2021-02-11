@@ -26,7 +26,7 @@ header {
     height: 50px;
 }
 
-nav.span {
+nav span {
     border: 1px solid black;
 }
 
