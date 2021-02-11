@@ -9,3 +9,12 @@
 body {
     background-color: #778899;
 }    
+
+header {
+    background-color: #708090;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid #708090;
+    align-items: center;
+    width: 100%;
+}
