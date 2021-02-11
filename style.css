@@ -26,7 +26,12 @@ header {
     height: 50px;
 }
 
+nav.span {
+    border: 1px solid black;
+}
+
 .main {
     padding-top: 75px;
 }
 
+.
