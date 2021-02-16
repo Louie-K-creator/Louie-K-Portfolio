@@ -223,8 +223,51 @@ a.footbar {
 /*      CONTACTS PAGE CONTACTS PAGE CONTACTS PAGE            */
 
 .form {
-    width: 100%;
+    width: 400px;
+    height: 220px;
+    margin: 0 auto;
     text-align: center;
+    background-color: darkslategray;
+    color: rgb(253, 254, 255);
+    margin-bottom: 166px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+.input {
+    width: 380px;
+    height: 20px;
+    border: 1px solid darkslategray;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
+
+#textarea {
+    margin: 5px;
+    height: 40px;
+}
+
+
+
+
+.button {
+    width: 90px;
+    height: 30px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+
+.content {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
 }
 
 
