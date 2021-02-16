@@ -83,7 +83,7 @@ h3 {
 
 .grid {
     display: grid;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr, 1fr;
