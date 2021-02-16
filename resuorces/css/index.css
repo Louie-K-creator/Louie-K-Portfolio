@@ -380,7 +380,7 @@ img {
     nav {
         box-sizing: border-box;
         background-color: orange;
-        padding: 18px 50px;
+        padding: 18px 10px;
         position: fixed;
         top: 0;
         width: 100%;
