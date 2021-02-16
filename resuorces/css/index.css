@@ -575,8 +575,8 @@ img {
     .e {
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-start: 4;
+        grid-row-start: 1;
+        grid-row-start: 2;
         text-align: center;
     
     }
@@ -584,8 +584,8 @@ img {
     .f {
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 4;
-        grid-row-start: 5;
+        grid-row-start: 2;
+        grid-row-start: 3;
     }
     
     .logo {
