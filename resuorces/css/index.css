@@ -85,8 +85,8 @@ h3 {
     display: grid;
     width: 60%;
     margin: 0 auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, fr;
 }
 
 /* image */
@@ -99,16 +99,16 @@ h3 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 5;
     padding: 10px;
 }
 
 /* about me content */
 
 .b {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 4;
     text-align:justify;
     padding: 10px;
