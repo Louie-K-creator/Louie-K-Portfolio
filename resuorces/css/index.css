@@ -365,7 +365,7 @@ img {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     body {
         margin-top: 100px;
         background-color: orange;
