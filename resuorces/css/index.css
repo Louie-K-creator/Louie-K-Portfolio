@@ -550,14 +550,14 @@ img {
         width: 600px;
         margin: 0 auto;
         margin-top: 30px;
-        grid-template-columns: 1fr, 2fr, 1fr, 1fr, 1fr, 2fr, 1fr;
-        grid-template-rows: 2fr, 1fr;
+        grid-template-columns: 150px;
+        grid-template-rows: 2fr, 1fr, 2fr, 1fr;
     }
     
     
     .c {
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
         grid-row-start: 1;
         grid-row-start: 2;
         text-align: center;
@@ -566,26 +566,26 @@ img {
     
     .d {
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 2;
         grid-row-start: 2;
         grid-row-start: 3;
     
     }
     
     .e {
-        grid-column-start: 6;
-        grid-column-end: 7;
-        grid-row-start: 1;
-        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-start: 4;
         text-align: center;
     
     }
     
     .f {
-        grid-column-start: 5;
-        grid-column-end: 8;
-        grid-row-start: 2;
-        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-start: 5;
     }
     
     .logo {
