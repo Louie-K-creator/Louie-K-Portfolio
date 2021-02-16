@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="resuorces/css/index.css" rel="stylesheet" type="text/css">
     <title>Portfolio - Louie Knight</title>
+    
 </head>
 <body>
     <header>
         <nav class="nav">
             <a class="taskbar" href="index.html">Home</a>
             <a class="bar">|</a>
-            <a class="taskbar" href="contacts.html">Contacts</a>
+            <a class="taskbar" href="#contact">Contacts</a>
             <a class="bar">|</a>
             <a class="taskbar" href="projects.html">Projects</a>
         </nav>
     </header>
     
-    <div class="title "> 
+    <div class="title " id="top"> 
         <h1>Louie Knight</h1>
     </div>
         <!--about me section-->
@@ -31,10 +32,10 @@
             <div class="b">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</div>
         </div>
     </div>
-        <!--Languages section-->
-    <div class="languages">
+        <!--SKills section-->
+    <div class="skills">
         <div class="subtitle ">
-            <h2>Languages I Know</h2>
+            <h2>Skills</h2>
         </div>
         <div class="gridlang ">
             <!--HTML5-->
@@ -46,13 +47,51 @@
         </div>
     </div>
 
+    <div class="title"> 
+        <h1>Get in Touch</h1>
+    </div>
+
+
+    <!-- TOP SECTION -->
+
+    <div class="content">
+        <h5>
+            Enter your details below if you would like me to get in touch with you.
+        </h5>
+    </div>
+
+<!--GITHUB LINKS-->
+
+
+    <!-- Form Section -->
+    <div class="form" id="contact">    
+        <form name="contact" netlify>
+            <p>
+                <label>Name <input class="input" type="text" name="name" placeholder="type your name here" /></label>
+            </p>
+            <p>
+                <label>Email <input class="input" type="email" name="email" placeholder="enter-email@here.com" /></label>
+            </p>
+            <p>
+                <label class="textlabel" for="textarea">Enter Additional Details Here<textarea class="input" name="textarea" id="textarea" cols="30" rows="10" placeholder="additional details here"></textarea></label>
+
+            </p>
+
+
+
+            <p>
+                <button class="button" type="submit">Send</button>
+            </p>
+        </form>
+    </div>
+
 
     <footer>
-        <h4>Thank you for visiting my portfolio page, I hope you enjoy all of the content</h4>
+        <h4>Thank you for visiting my portfolio page</h4>
 
         <div class="footergrid">
-            <div class="g"><a class="footbar" href="index.html">Top of Page</a></div>
-            <div class="h"><a class="footbar" href="contacts.html">Contact Information</a></div>
+            <div class="g"><a class="footbar" href="#top">Top of Page</a></div>
+            <div class="h"><a class="footbar" href="#contact">Contact Information</a></div>
             <div class="i"> <a class="footbar" href="projects.html">My Projects</a></div>
         </div>
 
