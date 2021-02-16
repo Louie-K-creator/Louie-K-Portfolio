@@ -650,6 +650,8 @@ img {
         background-color: midnightblue;
         color: rgb(253, 254, 255);
         margin-bottom: 166px;
+        margin-left: 5px;
+        margin-right: 5px;
         padding-top: 20px;
         border-radius: 15px;
     }
